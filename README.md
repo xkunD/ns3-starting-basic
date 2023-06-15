@@ -42,3 +42,10 @@ Please follow the steps below for a successful installation:
 ### Installation of ns-3
 1. **Download ns-3:**
    - sdf
+
+
+At time +2s client sent 1024 bytes to 10.1.1.2 port 9
+At time +2.00369s server received 1024 bytes from 10.1.1.1 port 49153
+At time +2.00369s server sent 1024 bytes to 10.1.1.1 port 49153
+At time +2.00737s client received 1024 bytes from 10.1.1.2 port 9
+

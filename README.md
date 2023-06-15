@@ -76,9 +76,12 @@ Please follow the steps below for a successful installation:
     $ ./ns3 run scratch/first.cc
     ```
     **Expected output:**
+    ```
     At time +2s client sent 1024 bytes to 10.1.1.2 port 9 
     At time +2.00369s server received 1024 bytes from 10.1.1.1 port 49153 
     At time +2.00369s server sent 1024 bytes to 10.1.1.1 port 49153 
     At time +2.00737s client received 1024 bytes from 10.1.1.2 port 9
+    ```
+    
 
     

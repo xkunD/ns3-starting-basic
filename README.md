@@ -6,7 +6,42 @@ The process of contributing to the ns-3 project varies with the people involved,
 
 This README excerpts some details from a more extensive tutorial that is maintained at: https://www.nsnam.org/documentation/latest/
 
-## Installation Guide 
+## Resources
+### General
+**Official / officially recommended sites:**
+- ns-3 official website: https://www.nsnam.org
+- ns-3-users Google forum: https://groups.google.com/forum/#!forum/ns-3-users
+- ns-3 Zulip chatroom: https://ns-3.zulipchat.com/
+
+**Personal channels I found useful:**
+- Engineering Clinic Blog: https://www.nsnam.com
+- Engineering Clinic Youtube Channel: https://www.youtube.com/@tspradeepkumar
+
+
+### Installation
+**Installation Guide from ns-3 website:**
+- HTML version: https://www.nsnam.org/docs/release/3.38/installation/html/index.html
+- PDF version: https://www.nsnam.org/docs/release/3.38/installation/ns-3-installation.pdf
+
+**Video Installation Guides:**
+- ns-3.37 with Ubuntu 20.04: https://www.youtube.com/watch?v=vU4GE2oKao0&list=PLX6MKaDw0naZILVYjo8_quA4JI8Jz-idL&index=45
+- ns-3.38 with Ubuntu 22.04: https://www.youtube.com/watch?v=crIXDeRL3tE&list=PLX6MKaDw0naZILVYjo8_quA4JI8Jz-idL&index=46
+- ns-3.37 with Ubuntu 22.04: https://www.youtube.com/watch?v=fTVd1TukkvY&t=2s
+
+**Other Useful Resources:**
+- Resize Ubuntu Disk Size: https://unix.stackexchange.com/questions/610129/resize-dev-sda2-ubuntu-vmware
+
+### Tutorials
+**Tutorials from ns-3 website (until ns-3.38):**
+- HTML version: https://www.nsnam.org/docs/release/3.38/tutorial/html/index.html
+- PDF version: https://www.nsnam.org/docs/release/3.38/tutorial/ns-3-tutorial.pdf
+
+**Other Useful Resources:**
+- Engineering Clinic Youtube ns-3 Playlist: https://www.youtube.com/playlist?list=PLX6MKaDw0naZILVYjo8_quA4JI8Jz-idL
+
+
+
+## My Installation Guide 
 To ensure a smooth installation of ns-3, it is recommended to work with a Linux environment. Here is a quick start guide for installing ns-3 using Ubuntu on the following operating environment and tools:
 
 * Operating System: Mac OS Ventura 13.2.1 (Intel)
@@ -41,7 +76,7 @@ Please follow the steps below for a successful installation:
     Open the terminal and enter the following commands:
     ```bash
     $ sudo apt update 
-    $ sudo apt install build-essential autoconf automake libxmu-dev g++ python3 python3-dev pkg-config sqlite3 cmake python3-setuptools git qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools gir1.2-goocanvas-2.0 python3-gi python3-gi-cairo python3-pygraphviz gir1.2-gtk-3.0 ipython3 openmpi-bin openmpi-common openmpi-doc libopenmpi-dev autoconf cvs bzr unrar gsl-bin libgsl-dev libgslcblas0 wireshark tcpdump sqlite sqlite3 libsqlite3-dev  libxml2 libxml2-dev libc6-dev libc6-dev-i386 libclang-dev llvm-dev automake python3-pip libxml2 libxml2-dev libboost-all-dev 
+    $ sudo sudo apt install build-essential autoconf automake libxmu-dev g++ python3 python3-dev pkg-config sqlite3 cmake python3-setuptools git qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools gir1.2-goocanvas-2.0 python3-gi python3-gi-cairo python3-pygraphviz gir1.2-gtk-3.0 ipython3 openmpi-bin openmpi-common openmpi-doc libopenmpi-dev autoconf cvs bzr unrar gsl-bin libgsl-dev libgslcblas0 wireshark tcpdump sqlite sqlite3 libsqlite3-dev  libxml2 libxml2-dev libc6-dev libc6-dev-i386 libclang-dev llvm-dev automake python3-pip libxml2 libxml2-dev libboost-all-dev
     ```
     Note: this command is working correctly on Ubuntu 22.04, packages may have different names on other versions.
 

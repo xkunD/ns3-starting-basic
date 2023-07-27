@@ -117,9 +117,14 @@ Please follow the steps below for a successful installation:
     At time +2.00369s server sent 1024 bytes to 10.1.1.1 port 49153 
     At time +2.00737s client received 1024 bytes from 10.1.1.2 port 9
     ```
-    
+
+## Visualization tools
+### Netanim
+### Wireshark
+### Tracemetrics
 ## Q&As
 1. How to set stationary position for nodes in the animation of Netanim?
+
    Answers:
    First, look at the tutorial instructions from ns-3 at ()
    
